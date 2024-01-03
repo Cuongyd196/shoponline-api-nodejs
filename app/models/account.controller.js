@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/demo?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=demo&authMechanism=SCRAM-SHA-256');
 
 const Schema = mongoose.Schema;
 
